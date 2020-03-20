@@ -1,31 +1,18 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
-import axios from "axios";
-//import PeopleCard from "./componenets/PeopleCard";
+import Display from "./components/Display";
+import styled from 'styled-components'
 
-export default function App()  {
-  const [people, setPeople] = useState([]);
-
-      useEffect(() => {
-        axios
-          .get("https://swapi.co/api/people/")
-          .then(response => {
-            console.log(response.data.result);
-           
-            setPeople(response.data.result);
-          })
-          .catch(error => {
-            console.log(error);
-          });
-      }, []);
+const App = () => {
   
+
   return (
     <div className="App">
       <h1 className="Header">React Wars</h1>
     </div>
+    
   );
 }
-
 // Try to think through what state you'll need for this app before starting. Then build out
   // the state properties here.
 
