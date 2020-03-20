@@ -27,7 +27,6 @@ const SpaceCard = styled.div`
 				<h3>Birth Year: {props.data.birth_year}</h3>
 				<h3>Eye Color: {props.data.eye_color}</h3>
 				<h3>Height: {props.data.height}</h3>
-				<h3>Mass: {props.data.mass} units</h3>
 				<h4>This character was {props.data.films.length} film(s)</h4>
             </SpaceCard>
             </InSpace>
