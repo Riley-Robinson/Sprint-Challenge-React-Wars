@@ -3,12 +3,20 @@ import './App.css';
 import Display from "./components/Display";
 import styled from 'styled-components'
 
+const SpaceH1 = styled.h1`
+	width: 100%;
+	align-items: center;
+	color: #EEDB00;
+  font-size: 3rem;
+`;
+
+
 const App = () => {
   
 
   return (
     <div className="App">
-      <h1 className="Header">The Spaceiest People Around</h1>
+      <SpaceH1 className="Header">The Spaceiest People Around!!</SpaceH1>
       <Display />
     </div>
     

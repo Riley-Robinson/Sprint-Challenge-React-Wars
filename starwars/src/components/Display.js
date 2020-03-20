@@ -2,7 +2,7 @@ import React, {useState, useEffect} from 'react';
 import PeopleCard from './PeopleCard';
 import Axios from 'axios';
 import styled from 'styled-components';
-
+import './StarWars.css';
 
 const SpaceBox = styled.div`
 	height: 80vh;
